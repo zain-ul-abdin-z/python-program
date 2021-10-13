@@ -1,0 +1,14 @@
+# This is a simple python program to get personal information of the user
+# author zain-ul-abdin
+
+first_name = str(input("What is your first name: "))
+last_name = str(input("What is your last name: "))
+age = str(input("How old are you: "))
+country = str(input("In which country do you live: "))
+religion = str(input("What is your religion: "))
+
+print()
+print()
+print("Dear, " + str.title(first_name) +" "+ str.title(last_name))
+print("You are " + age + " years old!")
+print("You live in " + str.title(country) + " and you belive in " + str.title(religion) + ".")
